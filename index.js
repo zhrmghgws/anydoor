@@ -25,6 +25,8 @@ argv.forEach(it=>{
     });
     process.nextTick(()=>{
         console.info('nextTick1111111');
+        console.info('nextTick222222');
+        console.info('nextTick111111');
     });
     //上面三个的执行顺序是 nextTick ,setTimeout,setImmediate:
     /*
