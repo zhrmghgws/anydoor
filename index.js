@@ -23,6 +23,9 @@ argv.forEach(it=>{
     process.nextTick(()=>{
         console.info('nextTick');
     });
+    process.nextTick(()=>{
+        console.info('nextTick1111111');
+    });
     //上面三个的执行顺序是 nextTick ,setTimeout,setImmediate:
     /*
     观察者优先级
