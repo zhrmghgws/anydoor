@@ -28,4 +28,4 @@ module.exports=(filepath)=>{
         ext=filepath;
     }
     return mimeType[ext] || mimeType['txt'] ;
-}
+};
